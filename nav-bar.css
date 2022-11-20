@@ -1,0 +1,86 @@
+
+
+* {
+    box-sizing: border-box;
+  }
+
+.nav-bar{
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    align-items: center;
+    
+    
+
+    display: flex;
+    flex-direction: row;
+   }
+.emble{
+    width: 100px;
+
+}
+.tjanster, .om, .kontakt{
+    flex: 1;
+    
+    
+    
+   
+}
+.om{
+    text-align: center;
+    
+}
+
+.tjanster{
+    text-align: right;
+}
+
+.kontakt{
+    text-align: left;
+}
+
+
+.tjanster-button{
+border: none;
+background-color: rgba(240, 248, 255, 0);
+font-family:playfair display sc ;
+
+font-weight: bold;
+font-size: 1vw;
+transform: opacity 0.15s;
+color: rgb(0, 0, 0);
+margin-top: 15%;
+opacity: 0.75;
+
+
+
+}
+@media(max-width:750px) {.tjanster-button{
+    font-size: 20px;
+}
+
+}
+.tjanster-button:hover{
+cursor: pointer;
+opacity: 1;
+
+}
+.avokatfirman-text{
+font-size: 1vw;
+}
+@media(max-width:750px){.avokatfirman-text{
+    font-size: 40px;
+    }
+
+}
+.bernales-text{
+    font-size: 2vw;
+}
+@media(max-width:750px){.bernales-text{
+    font-size: 30px;
+    }
+
+}

@@ -1,0 +1,98 @@
+.top-background-image{
+    background-image: url(BACKGROUND/tjanster-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    
+    
+
+}
+@media (max-width:750px){.top-background-image{
+
+    background-image: url(BACKGROUND/tjanster-background-mobile.jpg);
+
+
+}
+}
+.top-background-text-container{
+    padding-top: 30%;
+    padding-left: 50vw;
+}
+.help-text{
+    font-family: playfair display sc;
+    color: white;
+    background-color: black;
+    display: inline-block;
+}
+
+
+
+
+
+
+.separator-tjanster{
+    height: 10vh;
+    
+   
+}
+.tjanster-options-container{
+height: 50vh;
+
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+
+
+
+
+}
+
+@media (max-width:1200px){
+    .tjanster-options-container{
+        flex-direction: column;
+        height: 150vh;
+        
+        
+    }
+}
+
+
+
+
+
+
+
+.tjanster-options-1{
+   justify-content: space-around;
+   text-align: center;
+
+flex: 1;
+background-repeat: no-repeat;
+background-size: contain;
+
+}
+
+.tjanster-options-2{
+    
+    
+    display: inline-block;
+    background-repeat: no-repeat;
+    flex: 1;
+    background-size: contain;
+    text-align: center;
+    
+}
+.tjanster-options-3{
+    
+    
+   
+    background-repeat: no-repeat;
+    flex: 1;
+    background-size: contain;
+    text-align: center;
+    
+    
+
+}
+
